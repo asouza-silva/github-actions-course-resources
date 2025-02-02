@@ -35,6 +35,7 @@ jobs:
       - name: Build project
         run: |
           cd "Code/02 Basics/03 Finished Project"
+          ls -a
           npm run build
       - name: Deploy
         run: |

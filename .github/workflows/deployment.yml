@@ -16,8 +16,7 @@ jobs:
       #   run: npm test
       - name: Run List 
         run: |
-           ls -a
-           cd Code
+           cd '.\Code\02 Basics\03 Finished Project'
            ls -a
   # deploy:
   #   needs: test

@@ -15,7 +15,10 @@ jobs:
       # - name: Run tests
       #   run: npm test
       - name: Run List 
-        run: ls -a
+        run: |
+           ls -a
+           cd Code
+           ls -a
   # deploy:
   #   needs: test
   #   runs-on: ubuntu-latest
